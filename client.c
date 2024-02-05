@@ -34,12 +34,10 @@ void	send_signal(int pid, char byte)
 
 void	transmit_message(const char *message, int pid)
 {
-	size_t	len;
 	size_t	i;
 
 	if (!message || pid <= 0)
 		return ;
-	len = ft_strlen(message);
 	i = 0;
 	while (message[i])
 	{
