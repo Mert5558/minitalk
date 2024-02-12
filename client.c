@@ -45,7 +45,7 @@ void	transmit_message(const char *message, int pid)
 		usleep(100);
 		i++;
 	}
-	printf("Message sent!\n");
+	ft_printf("Message sent!\n");
 }
 
 int	main(int argc, char **argv)
